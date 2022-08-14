@@ -1,0 +1,22 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base",
+        ":disableRateLimiting",
+        ":separateMultipleMajorReleases"
+    ],
+    "packageRules": [
+        {
+            "description": "Replacement: replace deprecated java:8 images with supported eclipse-temurin:8",
+            "matchDatasources": [
+                "docker"
+            ],
+            "matchPackageNames": [
+                "java"
+            ],
+            "matchCurrentVersion": "8",
+            "replacementName": "eclipse-temurin",
+            "replacementVersion": "8"
+        }
+    ]
+}
