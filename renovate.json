@@ -14,8 +14,7 @@
             "matchPackageNames": [
                 "java"
             ],
-            "replacementName": "eclipse-temurin",
-            "replacementVersion": "8"
+            "replacementName": "eclipse-temurin"
         }
     ]
 }
