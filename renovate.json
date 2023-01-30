@@ -11,8 +11,8 @@
             "matchDatasources": [
                 "docker"
             ],
-            "matchDepNames": [
-                "java"
+            "matchPackageNames": [
+                "docker/library/java"
             ],
             "matchCurrentVersion": "8",
             "replacementName": "eclipse-temurin",
