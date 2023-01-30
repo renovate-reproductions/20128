@@ -11,7 +11,7 @@
             "matchDatasources": [
                 "docker"
             ],
-            "matchPackageNames": [
+            "matchDepNames": [
                 "java"
             ],
             "matchCurrentVersion": "8",
