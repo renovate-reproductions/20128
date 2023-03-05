@@ -5,6 +5,7 @@
         ":disableRateLimiting",
         ":separateMultipleMajorReleases"
     ],
+    "includeForks": true,
     "packageRules": [
         {
             "description": "Replacement: replace deprecated java:8 images with supported eclipse-temurin:8",
